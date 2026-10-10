@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "lumberjack",
+  "version": "${version}",
+  "name": "Lumberjack Dash Axe",
+  "description": "Золотой топор «Топор дровосека»: рывок, а вместе с огнивом - поджог вокруг.",
+  "environment": "*",
+  "entrypoints": { "main": [ "com.example.lumberjack.LumberjackMod" ] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
